@@ -20,6 +20,12 @@ h1 {
     font-size: 65px;
     margin-bottom: 20px;
 }
+h2 {
+    font-size: 45px;
+}
+h3 {
+    font-size: 30px;
+}
 .blue {
     background-color: rgb(42, 93, 251);
     color: white;
@@ -75,8 +81,34 @@ header {
 /* ///////////// Main ///////////// */
 main {
     width: 100vw;
-    height: 1200px;
+    height: 3200px;
 }
+.main_part {
+    width: 50vw;
+    height: 2000px;
+    margin: 7% auto;
+    /* background-color: blue; */
+}
+.business_plan
+
+#fatturazione1 {
+    margin-top: 50px;
+    margin-right: 5px;
+}
+#fatturazione2 {
+    margin-top: 50px;
+    margin-right: 5px;
+    margin-left: 50px;
+}
+.grid {
+    
+}
+
+
+
+
+
+
 /* ///////////// Footer ///////////// */
 footer {
     width: 100vw;
@@ -92,8 +124,9 @@ footer {
 .bottom_menu {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
-.bottom_column a, h3 {
+.bottom_column a, h4 {
     color: white;
 }
 .bottom_column ul {
