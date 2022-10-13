@@ -87,7 +87,7 @@ header {
 /* ///////////// Main ///////////// */
 main {
     width: 100vw;
-    height: 3200px;
+    height: 4500px;
 }
 .main_part {
     width: 1000px;
@@ -258,22 +258,96 @@ main {
 .main_part_footer h3 {
     margin-bottom: 30px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Companies ///////////// */
+.companies {
+    height: 1000px;
+    width: 100vw;
+    background-color: rgb(177, 203, 227);
+}
+.companies_box {
+    height: 660px;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-between;
+}
+.companies_column {
+/*  background-color:brown; */
+    height: 100%;
+    width: 660px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.companies_central {
+    width: 50%;
+}
+.company {
+    height: 50%;
+    width: 50%;
+    position: relative;
+}
+.company img {
+    width: 66%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.designit {
+    background-color:rgb(160,205,148);
+    border: 20px solid rgb(207, 230, 200); /* Da trasformare in hover più tardi */
+}
+.asu {
+    background-color: rgb(90, 32, 32);
+}
+.uf {
+    background-color: rgb(25, 106, 153);
+}
+.topps {
+    background-color: rgb(216, 24, 24);
+}
+.wbr {
+    background-color: rgb(156, 0, 0);
+}
+.hc {
+    background-color: rgb(105, 105, 247);
+}
+.lp {
+    background-color: rgb(18, 18, 211);
+}
+.cc {
+    background-color: rgb(199, 199, 15);
+}
+.companies_central {
+    padding: 50px;
+}
+.companies_central hr {
+    margin-top: 50px;
+    width: 200px;
+}
+.company_description {
+    padding-top: 50px;
+}
+.company_description span {
+    display: block;
+    margin-top: 50px;
+}
+.companies_trial {
+    height: 440px;
+    width: 100%;
+}
+.trial_text {    
+    margin: 50px 33%;
+}
+.trial_text div {
+    margin: 30px auto;
+    width: 250px;
+}
+/* FAQ ///////////// */
+.faq {
+    margin: 100px auto;
+}
 
 
 
